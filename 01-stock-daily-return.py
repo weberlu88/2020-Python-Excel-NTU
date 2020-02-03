@@ -9,7 +9,7 @@ def calc_daily_return(today_price, yesterday_price):
     daily_return = (today_price - yesterday_price)*100 / yesterday_price
     return daily_return
 
-def calc_moving-avg():
+def calc_moving_avg():
     return
 
 # 算出所有的報酬率
