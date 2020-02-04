@@ -14,10 +14,14 @@ def calc_moving_avg():
 
 # 算出所有的報酬率
 for i in range(3, 97): # 3~96
+
     # Get current price and previous price
     today_price = tsmc_sheet.range(f"B{i}").value
     yesterday_price = tsmc_sheet.range(f"B{i-1}").value
+
     # Calc return value and write in excel
     daily_return = calc_daily_return(today_price, yesterday_price)
     tsmc_sheet.range(f"C{i}").value = daily_return
     print(str(i) + ": " + str(daily_return))
+
+wb.save()
