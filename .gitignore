@@ -4,8 +4,8 @@ __pycache__/
 *$py.class
 
 # Contain Google-pass-num, cannot push to public.
-lesson_5/
-*.ipynb
+lesson_5/*.ipynb
+
 
 # C extensions
 *.so
