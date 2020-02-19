@@ -5,7 +5,9 @@ __pycache__/
 
 # Contain Google-pass-num, cannot push to public.
 lesson_5/*.ipynb
-
+lesson_5/Python x Excel 大數據分析實戰 (排程) .ipynb
+lesson_5/Python x Excel 大數據分析實戰 (用 Python 發送 Email) .ipynb
+lesson_5/Python x Excel 大數據分析實戰 (用 Python 產生 Excel 圖表) .ipynb
 
 # C extensions
 *.so
@@ -131,4 +133,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-lesson_5/Python x Excel 大數據分析實戰 (排程) .ipynb
+
