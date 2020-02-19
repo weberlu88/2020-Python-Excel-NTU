@@ -134,3 +134,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+lesson_5/tw_stock_backtest.py
+lesson_5/stock_portfolio_backtest.xlsx
